@@ -43,7 +43,7 @@ class ResultPage extends StatelessWidget {
                         TextSpan(
                             text: "\n$title ", style: AppTextStyles.bodyBold),
                         TextSpan(
-                            text: "\n com $result de $length acertos",
+                            text: "\n com ${result - 1} de $length acertos",
                             style: AppTextStyles.body),
                       ]),
                   textAlign: TextAlign.center,

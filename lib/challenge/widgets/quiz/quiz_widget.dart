@@ -30,6 +30,7 @@ class _QuizWidgetState extends State<QuizWidget> {
           Text(
             widget.question.title,
             style: AppTextStyles.heading,
+            textAlign: TextAlign.center,
           ),
           SizedBox(
             height: 24,
